@@ -1,0 +1,6 @@
+@bigcommerce_server_HostAddress = http://localhost:5070
+
+GET {{bigcommerce_server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
