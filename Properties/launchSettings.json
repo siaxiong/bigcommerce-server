@@ -26,7 +26,15 @@
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7145;http://localhost:5070",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "BC_NON_B2B_ENDPOINT_V2": "https://api.bigcommerce.com/stores/ofz1wo4caq/v2",
+        "BC_NON_B2B_V2_TOKEN": "3qu962ukcfg189d8lpr67u78ghacety",
+        "BC_NON_B2B_ENDPOINT_V3": "https://api.bigcommerce.com/stores/ofz1wo4caq/v3",
+        "BC_NON_B2B_V3_TOKEN": "3qu962ukcfg189d8lpr67u78ghacety",
+        "BC_B2B_ENDPOINT": "https://api-b2b.bigcommerce.com/api/v3/io",
+        "BC_B2B_TOKEN": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdG9yZV9oYXNoIjoib2Z6MXdvNGNhcSIsImRiIjoiZGVmYXVsdCIsImVtYWlsIjoic2lhLnhpb25nQGlic2ltcGxhbnQudXMiLCJuYW1lIjoiQmlnQ29tbWVyY2VfRXhwcmVzc0pTX1NlcnZlciIsImV2ZW50X2NoYW5uZWwiOiJhcHAiLCJ0b2tlbl92ZXJzaW9uIjoidjMifQ.pRmyaDuuoEkm_6WiSISNC6AlzrJnlDzZnzRnFR6SvvQ"
+
+
       }
     },
     "IIS Express": {

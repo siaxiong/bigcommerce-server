@@ -5,11 +5,15 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
-    <RootNamespace>bigcommerce_server</RootNamespace>
+    <RootNamespace>BigCommerce_Server</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Respository\" />
   </ItemGroup>
 
 </Project>
